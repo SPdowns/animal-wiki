@@ -19,12 +19,14 @@
 $(document).ready(function() {
   $("#learnbutton").click(function() {
   var animal = $("#animalInput").val();
-  console.log(animal);
+  $(".learn-more").hide();
 
   if (animal === "Lions") {
     $('#lion-showing').show();
   } else if (animal === "Bears") {
-    $("#bear-showing").show();
+    $("#bear-showing").show();  
+  } else if (animal === "Turtles") {
+    $("#turtle-showing").show();
   }
 });
 });
