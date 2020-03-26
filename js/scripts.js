@@ -1,4 +1,4 @@
-$(document).ready(function() {
+/*$(document).ready(function() {
   $(".clickable-turtle").click(function() {
     $("#bear-showing").fadeOut();
     $("#lion-showing").fadeOut();
@@ -14,10 +14,17 @@ $(document).ready(function() {
     $("#lion-showing").fadeOut();
     $("#bear-showing").fadeToggle();
   });
-});
+}); */
 
-  //var animal =(prompt("Which animal would you like to learn about? Turtles, Lions or Bears?"));
+$(document).ready(function() {
+  $("#learnbutton").click(function() {
+  var animal = $("#animalInput").val();
+  console.log(animal);
 
-  if (animal === "turtle") {
-    $('#turtle-showing').show();
+  if (animal === "Lions") {
+    $('#lion-showing').show();
+  } else if (animal === "Bears") {
+    $("#bear-showing").show();
   }
+});
+});
