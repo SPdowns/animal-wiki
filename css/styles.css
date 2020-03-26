@@ -32,33 +32,6 @@ img {
   display: none;
 } */
 
-.clickable-turtle {
-  cursor: pointer;
-  color: #0088cc;
-}
-
-.clickable-turtle:hover {
-  text-decoration: underline;
-}
-
-.clickable-lion {
-  cursor: pointer;
-  color: #0088cc;
-}
-
-.clickable-lion:hover {
-  text-decoration: underline;
-}
-
-.clickable-bear {
-  cursor: pointer;
-  color: #0088cc;
-}
-
-.clickable-bear:hover {
-  text-decoration: underline;
-}
-
 
 p {
   font-family: sans-serif;
