@@ -5,6 +5,7 @@
   padding: 50px;
   margin: 25px;
   border-style: dotted;
+  background-image: linear-gradient(to bottom, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
 }
 
 img {
@@ -16,12 +17,20 @@ img {
 }
 
 #turtle-showing {
-    display: none;
+  display: none;
 }
 
 #lion-showing {
   display: none;
 }
+
+#bear-showing {
+  display: none;
+}
+
+/* .pul {
+  display: none;
+} */
 
 .clickable-turtle {
   cursor: pointer;
@@ -41,9 +50,17 @@ img {
   text-decoration: underline;
 }
 
+.clickable-bear {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.clickable-bear:hover {
+  text-decoration: underline;
+}
+
 
 p {
-  margin: ;
   font-family: sans-serif;
   font-weight: 550;
   font-size: 14px;
