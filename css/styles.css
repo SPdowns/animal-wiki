@@ -1,0 +1,30 @@
+.jumbotron {
+  text-align: center;
+  font-weight: bold;
+  font-family: cursive;
+  padding: 50px;
+}
+
+img {
+  height: 400px;
+  width: 450px;
+  float: ;
+}
+
+#turtle-showing {
+    display: none;
+}
+
+.clickable {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.clickable:hover {
+  text-decoration: underline;
+}
+
+p {
+  font-family: sans-serif;
+  font-size: 14px;
+}
