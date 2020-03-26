@@ -3,28 +3,52 @@
   font-weight: bold;
   font-family: cursive;
   padding: 50px;
+  margin: 25px;
+  border-style: dotted;
 }
 
 img {
-  height: 400px;
-  width: 450px;
-  float: ;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 15px;
 }
 
 #turtle-showing {
     display: none;
 }
 
-.clickable {
+#lion-showing {
+  display: none;
+}
+
+.clickable-turtle {
   cursor: pointer;
   color: #0088cc;
 }
 
-.clickable:hover {
+.clickable-turtle:hover {
   text-decoration: underline;
 }
 
+.clickable-lion {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.clickable-lion:hover {
+  text-decoration: underline;
+}
+
+
 p {
+  margin: ;
   font-family: sans-serif;
+  font-weight: 550;
   font-size: 14px;
+}
+
+body {
+  background-color: lightgray;
 }

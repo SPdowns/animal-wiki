@@ -1,8 +1,8 @@
 $(document).ready(function() {
-  $(".clickable").click(function() {
+  $(".clickable-turtle").click(function() {
     $("#turtle-showing").fadeToggle(); 
   });
-  $(".clickable").click(function() {
+  $(".clickable-lion").click(function() {
     $("#lion-showing").fadeToggle(); 
   });
 });
